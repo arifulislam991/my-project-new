@@ -1,0 +1,73 @@
+.section-1{
+    background: url(img/p8.jpg) ;
+    padding: 350px 0;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-style: italic;
+    font-size: 40px;
+    margin-bottom: 30px
+}
+.section-1 a{
+    color: aliceblue;
+    border: 1px solid #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.section-1 a:hover{
+        border-color: rgb(191, 191, 10);
+        color: rgb(186, 186, 23);
+        border-radius: 10px;
+}
+.menu{
+    background-color: rgb(20, 116, 20);
+}
+.menu > ul{
+    display: flex;
+    justify-content: center;
+}
+.menu ul li{
+    list-style: none;
+    position: relative;
+}
+.menu ul li a{
+    padding: 30px 30px;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+.menu ul li a:hover{
+    border: yellow;
+    color: yellow;
+    border: 1px solid;
+}
+.bg{
+    background: url(img/p7.jpg);
+    padding: 350px 0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+h3{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 15px 15px 5px rgb(23, 7, 7);
+}
+.a1{
+    text-align: center;
+    padding: 10px 10px;
+    display: block;
+    background-color: black;
+}
