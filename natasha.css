@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(176, 8, 8);
+    background-color: aqua;
+}
+h4{
+    color: aliceblue;
+}
+.team{
+    background-color: rgb(8, 2, 2);
+    padding: 0 100px;
+    margin: 0 auto;
+
+}
+.team-member{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+.member{
+    width: 23.5;
+}
+.team-member img{
+    width: 100% ;
+    height: auto;
+}
+.bd ul{
+    background-color: red;
+}
+.bd ul li{
+    padding: 10px ;
+}
+.bd ul li a{
+}
